@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Classes vs. IDs</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <div class="window-size">
+    <div class="window-outer">
+      Classes vs IDs.exe
+      <a href="./index.html"
+        ><img id="x-box" src="./images/x-box.png" alt="x-box" align="right"
+      /></a>
+    </div>
+    <div class="window-entry">
+    <h1>
+      Q: What are the best practices associated with using classes vs. ids?
+    </h1>
+    <h2>Best practices for using classes</h2>
+    <ul>
+      <li>
+        Use classes for multiple elements and make them reusable throughout your
+        html
+      </li>
+      <li>
+        Use classes for styling, use the !important tag when you want one class
+        to take priority over another
+      </li>
+      <li>Order you classes in order of priority in the css file</li>
+    </ul>
+    <h2>Best practices for using ID</h2>
+    <ul>
+      <li>Use ID for styling a single element</li>
+      <li>Avoid using IDs for styling purposes</li>
+      <li>
+        Avoid using IDs unless you want to improve load speed and compatability
+      </li>
+    </ul>
+    <h2>Overlap between ids and classes</h2>
+    <p>
+      DO's:<br />
+      When naming classes and IDs, keep names concise and descriptive of it's
+      functionality. Use a css to declare classes and IDs and use multiple style
+      sheets if the html design is large and complex. using a css file will help
+      improve the preformance and readability of the html.When using the
+      creating classes and IDs that are important but don't need the important
+      tag, add a comment to explain why the class or ID should not be overriden.
+    </p>
+    <p>
+      DON'T's:<br />
+      Avoid using generic or irrelevent names and it makes the readability a lot
+      more difficult. Ensure these names also are either using cammelcase or
+      lowercase with hyphens, do not mix and match to avoid confusion.Try keep
+      all styling elements on a css sheet rather than inline of the html as it
+      makes it easier to access and maintain as well as improve preformance.
+      Avoid using !important where possible as it may override a more important
+      class.
+    </p>
+  </div>
+</html>

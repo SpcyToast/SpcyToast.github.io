@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+#pug-image {
+  width: 325px;
+}
+
+#x-box {
+  max-width: 19px;
+  height: auto;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.window-inner {
+  margin: 0px auto;
+  padding: 0px 30px 30px 30px;
+  text-align: center;
+  border-color: #fe19ff;
+  border-width: 3px;
+  border-style: solid;
+  align-content: center;
+  background-color: black;
+}
+
+.window-outer {
+  text-align: start;
+  font-family: 'Pixelify Sans', sans-serif;
+  margin: 0px auto;
+  padding: 5px;
+  border-color: #fe19ff;
+  border-width: 3px 3px 0px 3px;
+  border-style: solid;
+  background-color: #800080;
+}
+
+.window-entry {
+  margin: 0px auto;
+  padding: 20px 30px 30px 30px;
+  text-align: left;
+  border-color: #fe19ff;
+  border-width: 3px;
+  border-style: solid;
+  align-content: center;
+}
+
+.window-size {
+  max-width: 1000px;
+  height: auto;
+}
+
+#directory {
+  font-size: 14pt;
+}
