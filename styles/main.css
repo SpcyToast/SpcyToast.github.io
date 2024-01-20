@@ -83,3 +83,8 @@ a:visited {
 .figure-x {
   text-align: center;
 }
+
+.core-image {
+  text-align: center;
+  width: 100px;
+}
