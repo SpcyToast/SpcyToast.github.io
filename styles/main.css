@@ -63,7 +63,12 @@ a:visited {
 }
 
 .window-size {
-  max-width: 1000px;
+  max-width: 675px;
+  height: auto;
+}
+
+.window-index {
+  min-width: 415px;
   height: auto;
 }
 
