@@ -22,13 +22,12 @@ h2 {
   height: auto;
 }
 
-a:link {
-  color: white;
+a:visited {
+  color: whitesmoke;
   background-color: transparent;
-  font-family: 'Pixelify Sans', sans-serif;
 }
 
-a:visited {
+.a-diff {
   color: whitesmoke;
   background-color: transparent;
   font-family: 'Pixelify Sans', sans-serif;
@@ -64,6 +63,21 @@ a:visited {
   border-width: 3px;
   border-style: solid;
   align-content: center;
+}
+
+.progress-outer {
+  border-color: #fe19ff;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.progress-inner {
+  color: white;
+  background-color: #800080;
+  margin: 3px;
+  padding: 0.5%;
+  text-align: right;
+  font-family: 'Pixelify Sans', sans-serif;
 }
 
 .window-size {
